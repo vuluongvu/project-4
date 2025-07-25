@@ -7,6 +7,18 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+/* common code */
+
+.btn {
+    width: 117px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid #000958;
+    opacity: 0.7;
+    background-color: transparent;
+}
+
 h1,
 h2,
 h3,
@@ -22,4 +34,55 @@ select,
 button {
     font-size: inherit;
     font-family: inherit;
+}
+
+.container {
+    width: 1440px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.header__inner {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    flex-wrap: nowrap;
+}
+
+.header__logo {
+    margin-left: 123.5px;
+    margin-right: 229px;
+}
+
+.header__nav__text {
+    text-decoration: none;
+    color: #5E6085;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+    transition: all 0.3s;
+}
+
+.header__sign-up__btn {
+    margin-left: 193px;
+    color: #000958;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.header__sign-up__btn:hover {
+    background-color: #000958;
+    color: #fff;
+}
+
+.header__nav__text:hover {
+    color: #000958;
+    text-shadow: #000958 0.2px 0.2px 0.2px;
 }
