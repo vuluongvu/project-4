@@ -15,8 +15,10 @@ body {
     flex-shrink: 0;
     border-radius: 25px;
     border: 1px solid #000958;
-    opacity: 0.7;
-    background-color: transparent;
+    background: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
 }
 
 h1,
@@ -45,8 +47,12 @@ button {
 
 /* header */
 
+.header {
+    background-color: #FFFAF5;
+}
+
 .header__inner {
-    margin-top: 26px;
+    padding-top: 26px;
     display: flex;
     align-items: center;
     gap: 36px;
@@ -54,8 +60,8 @@ button {
 }
 
 .header__logo {
-    margin-left: 123.5px;
-    margin-right: 229px;
+    padding-left: 123.5px;
+    padding-right: 229px;
 }
 
 .header__nav__text {
@@ -85,4 +91,78 @@ button {
 .header__nav__text:hover {
     color: #000958;
     text-shadow: #000958 0.2px 0.2px 0.2px;
+}
+
+/* hero */
+
+.hero__main {
+    background-color: #FFFAF5;
+    padding-bottom: 230px;
+}
+
+.hero__container {
+    padding-top: 106px;
+    display: flex;
+}
+
+.section__hero-left {
+    margin-left: 75px;
+}
+
+.hero__heading {
+    padding-top: 120px;
+    max-width: 517px;
+    color: #000958;
+    font-size: 6.6rem;
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.hero__desc {
+    margin-top: 24px;
+    max-width: 391px;
+    color: #656689;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.87;
+}
+
+.section__hero-right {
+    margin-left: 120px;
+}
+
+.hero__button-action {
+    color: #fff;
+    margin-top: 38px;
+    margin-right: 24px;
+    width: 189px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 31px;
+    background-color: #FF5B2E;
+    box-shadow: 0 13px 26px -8px rgba(255, 91, 46, 0.42);
+    border: 1px solid #FF5B2E;
+    font-size: 1.6rem;
+    transition: background-color ease 0.3s, opacity ease 0.3s;
+}
+
+.hero__button-action:hover {
+    opacity: 0.7;
+}
+
+.schedule {
+    color: #000958;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    transition: all 0.3s;
+}
+
+.schedule:hover {
+    opacity: 0.5;
 }
