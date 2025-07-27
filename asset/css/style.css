@@ -97,7 +97,7 @@ button {
 
 .hero__main {
     background-color: #FFFAF5;
-    padding-bottom: 230px;
+    padding-bottom: 130px;
 }
 
 .hero__container {
@@ -165,4 +165,70 @@ button {
 
 .schedule:hover {
     opacity: 0.5;
+}
+
+/* about */
+
+.about__main {
+    background-color: #FFFAF5;
+}
+
+.about__container {
+    display: flex;
+
+}
+
+.about__left {
+    padding-top: 80px;
+    padding-left: 120px;
+}
+
+.about__left__heading {
+    margin-top: 15px;
+    max-width: 446px;
+    color: #000958;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.19;
+}
+
+.about__left__title__heading {
+    color: #5E6085;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.about__left__desc {
+    margin-top: 24px;
+    max-width: 431px;
+    color: #656689;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.87;
+}
+
+.about__right-img {
+    margin-left: 80px;
+}
+
+.about__list {
+    margin-top: 54px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 34px;
+    column-gap: 36px;
+
+}
+
+.about__list-achivement {
+    display: flex;
+    align-items: center;
+}
+
+.about__achivement {
+    margin-left: 10px;
+    font-size: 1.8rem;
+    color: #48496A;
+    font-weight: 500;
 }
