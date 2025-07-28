@@ -9,6 +9,11 @@ body {
 
 /* common code */
 
+a {
+    text-decoration: none;
+
+}
+
 .btn {
     width: 117px;
     height: 50px;
@@ -231,4 +236,79 @@ button {
     font-size: 1.8rem;
     color: #48496A;
     font-weight: 500;
+}
+
+/* about-2 */
+
+.about-2__main {
+    background-color: #FFFAF5;
+}
+
+.about-2__container {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+.about-2__right__container {
+    margin-left: 78px;
+}
+
+.about-2__heading {
+    margin-top: 52px;
+    max-width: 543px;
+    color: #000958;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.19;
+}
+
+.about-2__desc {
+    margin-top: 24px;
+    max-width: 511px;
+    color: #656689;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.87;
+}
+
+.about-2__right__list {
+    margin-top: 52px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 22px;
+}
+
+.about-2__information {
+    display: flex;
+    align-items: center;
+}
+
+.about-2__service-desc {
+    color: #48496A;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.about-2__right__desc-2 {
+    margin-top: 50px;
+    max-width: 391px;
+    color: #656689;
+    font-size: 1.4;
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.about-2__right__view-more {
+    display: inline-block;
+    color: #FF5D31;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.about-2__right__view-more:hover {
+    text-decoration: underline;
+    text-decoration-color: #FF5D31;
+    text-decoration-thickness: 1.5px;
 }
